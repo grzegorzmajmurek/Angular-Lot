@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "image": "charger.png",
+    "title": "Ładowarka",
+    "description": "Ładowarka Hauwei",
+    "price": {
+      "PLN": 100,
+      "EUR": 25
+    }
+  },
+  {
+    "id": 1,
+    "image": "notebook.png",
+    "title": "Notebook",
+    "description": "Notebook HP",
+    "price": {
+      "PLN": 1000,
+      "EUR": 250
+    }
+  },
+  {
+    "id": 2,
+    "image": "pen.png",
+    "title": "Długopis",
+    "description": "Długopis Parker",
+    "price": {
+      "PLN": 8,
+      "EUR": 2
+    }
+  },
+  {
+    "id": 3,
+    "image": "rucksack.png",
+    "title": "Plecak",
+    "description": "Plecak 4F",
+    "price": {
+      "PLN": 200,
+      "EUR": 50
+    }
+  },
+  {
+    "id": 4,
+    "image": "smartphone.png",
+    "title": "Smartfon",
+    "description": "Smartfon LG",
+    "price": {
+      "PLN": 2000,
+      "EUR": 500
+    }
+  },
+  {
+    "id": 5,
+    "image": "suitcase.png",
+    "title": "Walizka",
+    "description": "Walizka Witchen",
+    "price": {
+      "PLN": 400,
+      "EUR": 100
+    }
+  },
+  {
+    "id": 6,
+    "image": "tablet.png",
+    "title": "Tablet",
+    "description": "Tablet Apple",
+    "price": {
+      "PLN": 800,
+      "EUR": 200
+    }
+  },
+  {
+    "id": 7,
+    "image": "watch.png",
+    "title": "Zegarek",
+    "description": "Zegarek Casio",
+    "price": {
+      "PLN": 500,
+      "EUR": 125
+    }
+  }
+]

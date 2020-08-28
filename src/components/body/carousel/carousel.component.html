@@ -1,0 +1,31 @@
+<div id="bootstrapCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- The slides to show -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="d-flex flex-row justify-content-around">
+        <app-carousel-card [detalis]="itemDetails(0)"></app-carousel-card>
+        <app-carousel-card [detalis]="itemDetails(1)"></app-carousel-card>
+        <app-carousel-card [detalis]="itemDetails(2)"></app-carousel-card>
+        <app-carousel-card [detalis]="itemDetails(3)"></app-carousel-card>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-flex flex-row justify-content-around">
+        <app-carousel-card [detalis]="itemDetails(4)"></app-carousel-card>
+        <app-carousel-card [detalis]="itemDetails(5)"></app-carousel-card>
+        <app-carousel-card [detalis]="itemDetails(6)"></app-carousel-card>
+        <app-carousel-card [detalis]="itemDetails(7)"></app-carousel-card>
+      </div>
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#bootstrapCarousel" data-slide="prev">
+    <span class="fa fa-angle-left fa-2x control-color" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#bootstrapCarousel" data-slide="next">
+    <span class="fa fa-angle-right fa-2x control-color" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

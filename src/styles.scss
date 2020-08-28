@@ -1,0 +1,72 @@
+@font-face {
+  font-family: lato !important;
+  src: url(assets/font/Lato-Regular.ttf) format("opentype") !important;
+}
+
+$sx-font-size: 10px;
+$sm-font-size: 12px;
+$md-font-size: 14px;
+$lg-font-size: 16px;
+$xl-font-size: 18px;
+$xxl-font-size: 20px;
+$large-font-size: 30px;
+
+$text-color: #1a3172;
+$grey-color: #f0f0f0;
+
+.text-color-gray {
+  color: gray !important;
+}
+
+p, label, a, h2 {
+  color: $text-color !important;
+}
+
+.icon-color {
+  color: $text-color;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: white !important;
+  border-bottom: 2px solid #1a3172 !important;
+}
+
+a.nav-link {
+  @media screen and (max-width: 600px){
+    font-size: $sm-font-size;
+    padding: 10px;
+    margin: 5px;
+  }
+  color: #1a3172;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.btn-like-it {
+  border-color: $text-color;
+  background-color: $text-color;
+  color: white;
+}
+
+.list-min-width {
+  min-width: 80px;
+}
+
+.font-size-sm {
+  font-size: $sm-font-size;
+}
+
+.font-size-md {
+  font-size: $md-font-size;
+}
+
+.font-size-xxl {
+  font-size: $xxl-font-size;
+}

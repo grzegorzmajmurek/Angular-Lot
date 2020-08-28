@@ -1,0 +1,72 @@
+<div class="p-3">
+  <div class="row justify-content-between pt-5">
+    <p class="font-size-sm text-color-gray">{{'Body.dostawa'| translate}}
+      <span class="font-weight-bold">{{'Body.od'| translate}} {{deliveryPrice| number: '1.2-2'}} {{currency}}</span>
+    </p>
+    <div>
+      <p class="mb-0 font-size-sm text-color-gray">{{'Body.doKonca'| translate}}
+        <span class="font-weight-bold">{{countDays}} {{'Body.dni'| translate}}</span>
+      </p>
+      <p class="font-size-sm text-right text-color-gray">({{dateEndAuction | date:'dd.MM.yyyy HH:mm'}})</p>
+    </div>
+  </div>
+  <div class="row">
+    <p class="font-size-sm text-color-gray">{{'Text.abyWziacUdzialWLicytacjiMusiszByc' | translate}}
+      <a [href]="'Link.login'| translate" target="_blank">{{'Text.zalogowany' | translate}}</a>
+    </p>
+  </div>
+  <div class="row description-background-color p-4">
+    <div class="col-4 pl-0">
+      <p class="font-size-sm text-color-gray my-0">{{'Body.aktualnaCena'| translate}}</p>
+      <p class="font-size-xxl text-color-gray my-0">{{actualPrice}} {{currency}}</p>
+      <a href="" class="font-size-sm">{{'Link.licytujZaMnie'| translate}}</a>
+    </div>
+    <div class="col-4">
+      <p class="font-size-sm text-color-gray my-0">{{'Body.twojaOferta'| translate}}</p>
+      <input class="w-50 mr-2"/>
+      <span>{{currency}}</span>
+    </div>
+    <div class="col-4 mt-2">
+      <button class="btn btn-danger text-uppercase">{{'Button.licytuj'| translate}}</button>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+      <label class="form-check-label font-size-md" for="inlineCheckbox3">
+        {{'Text.zapoznalemSieZ' |translate}}
+        <a [href]="'Link.regulacje'| translate" target="_blank">{{'Text.regulaminem' |translate}}</a>
+      </label>
+    </div>
+  </div>
+  <div class="row description-background-color p-4 mt-2">
+    <div class="col-6 col-md-4 pl-0">
+      <p class="font-size-sm text-color-gray my-0">{{'Body.cenaKupTeraz'| translate}}</p>
+      <p class="font-size-xxl text-color-gray my-0">{{buyNowPrice}} {{currency}}</p>
+    </div>
+    <div class="col-6 col-md-4 mt-2">
+      <button class="btn btn-danger text-uppercase">{{'Button.kupTeraz'| translate}}</button>
+    </div>
+    <div class="form-check form-check-inline pt-2">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox" value="option3">
+      <label class="form-check-label font-size-md" for="inlineCheckbox">
+        {{'Text.zapoznalemSieZ' |translate}}
+        <a [href]="'Link.regulacje'| translate" target="_blank">{{'Text.regulaminem' |translate}}</a>
+      </label>
+    </div>
+  </div>
+  <app-collapse index="1" title="{{'Collapse.opis' |translate}}" [description]="description"></app-collapse>
+  <app-collapse index="2" title="{{'Collapse.dodatkoweInformacje' |translate}}"
+                [description]="additionalInfo"></app-collapse>
+  <app-collapse index="3" title="{{'Collapse.terminDostawy' |translate}}"
+                [description]="'DeliveryTerm.terminDostawy' |translate"></app-collapse>
+  <div class="row align-items-center mt-3">
+    <i class="fa fa-heart icon-color"></i>
+    <button class="btn btn-like-it mx-3">
+      <i class="fa fa-facebook"></i>
+      <span class="px-4">{{'Link.lubieTo' |translate}}</span>
+    </button>
+    <button class="btn btn-outline-dark">
+      <span class="px-4">{{'Link.udostepnij' |translate}}</span>
+    </button>
+  </div>
+</div>
+

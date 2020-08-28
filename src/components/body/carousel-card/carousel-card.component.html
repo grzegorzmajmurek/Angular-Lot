@@ -1,0 +1,6 @@
+<div *ngIf="detalis" class="p-5">
+  <img [src]="'assets/image/recommend/' + detalis.image" class="image-size" alt="">
+  <p class="text-center text-uppercase mb-0 font-weight-bold font-size-md">{{detalis.title}}</p>
+  <p class="text-center font-size-sm text-color-gray d-none d-md-block">{{detalis.description}}</p>
+  <p class="text-center text-color-gray font-size-price pt-1">{{detalis.price[currency]}} {{currency}}</p>
+</div>

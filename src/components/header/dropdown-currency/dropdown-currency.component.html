@@ -1,0 +1,8 @@
+<div class="dropdown d-inline" [ngClass]="{'show': isShow}">
+  <span class="text-uppercase font-size-sm font-weight-bold pr-2">{{currency}}</span>
+  <i class="fa fa-angle-down mr-3" (click)="showList()"></i>
+  <div class="dropdown-menu list-min-width" [ngClass]="{'show': isShow}" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#" (click)="selectCurrency(Currency.PLN)">PLN</a>
+    <a class="dropdown-item" href="#" (click)="selectCurrency(Currency.EUR)">EUR</a>
+  </div>
+</div>

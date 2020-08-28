@@ -1,0 +1,46 @@
+<app-header></app-header>
+<div class="row pr-md-5 mr-md-5">
+  <nav class="col-md-6 mx-2 mx-md-0">
+    <div class="nav nav-tabs justify-content-around" id="nav-tab" role="tablist">
+      <a class="nav-link active" id="delivery-deck-tab" data-toggle="tab" href="#delivery-deck" role="tab"
+         aria-controls="delivery-deck"
+         aria-selected="true">{{'Body.dostawaPoklad'| translate}}</a>
+      <a class="nav-link" id="delivery-address-tab" data-toggle="tab" href="#delivery-address" role="tab"
+         aria-controls="delivery-address"
+         aria-selected="false">{{'Body.dostawaAdres'| translate}}</a>
+      <a class="nav-link" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service"
+         aria-selected="false">{{'Body.uslugi'| translate}}</a>
+      <a class="nav-link" id="auction-tab" data-toggle="tab" href="#auction" role="tab" aria-controls="auction"
+         aria-selected="false">{{'Body.aukcje'| translate}}</a>
+      <a class="nav-link" id="novelty-tab" data-toggle="tab" href="#novelty" role="tab" aria-controls="novelty"
+         aria-selected="false">{{'Body.nowosci'| translate}}</a>
+      <a class="nav-link" id="promotion-tab" data-toggle="tab" href="#promotion" role="tab" aria-controls="promotion"
+         aria-selected="false">{{'Body.promocje'| translate}}</a>
+    </div>
+  </nav>
+  <div class="col-md-3"></div>
+  <div class="col-md-3 mx-2 mx-md-0 pr-md-3">
+    <app-search-product-input></app-search-product-input>
+  </div>
+</div>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="delivery-deck" role="tabpanel" aria-labelledby="delivery-deck-tab">
+    <app-body></app-body>
+  </div>
+  <div class="tab-pane fade" id="delivery-address" role="tabpanel" aria-labelledby="delivery-address-tab">
+    <app-page-not-available></app-page-not-available>
+  </div>
+  <div class="tab-pane fade" id="service" role="tabpanel" aria-labelledby="service-tab">
+    <app-page-not-available></app-page-not-available>
+  </div>
+  <div class="tab-pane fade" id="auction" role="tabpanel" aria-labelledby="auction-tab">
+    <app-page-not-available></app-page-not-available>
+  </div>
+  <div class="tab-pane fade" id="novelty" role="tabpanel" aria-labelledby="novelty-tab">
+    <app-page-not-available></app-page-not-available>
+  </div>
+  <div class="tab-pane fade" id="promotion" role="tabpanel" aria-labelledby="promotion-tab">
+    <app-page-not-available></app-page-not-available>
+  </div>
+</div>
+<app-footer></app-footer>

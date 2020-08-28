@@ -1,0 +1,76 @@
+{
+  "Header": {
+    "mojeKonto": "Moje konto"
+  },
+  "SubHeader": {
+    "numerRezerwacji": "Numer Twojej rezerwacji:",
+    "zmien": "Zmień"
+  },
+  "Footer": {
+    "przydatneInformacje": "Przydatne Informacje",
+    "dlaKupujacego": "Dla kupujacego",
+    "kontakt": "Kontakt",
+    "metodyPlatnosci": "Metody płatności"
+  },
+  "SubFooter": {
+    "regulaminSklepu": "Regulamin Sklepu",
+    "regulaminAukcjiBiletowLotniczych": "Regulamin Aukcji Biletów Lotniczych",
+    "regulaminAukcjiBagazu": "Regulamin Aukcji Bagażu",
+    "regulaminAukcji": "Regulamin Aukcji",
+    "pomoc": "Pomoc",
+    "sposobyDostawy": "Sposoby Dostawy",
+    "zwrotyGwarancje": "Zwroty i gwarancje",
+    "ofertaMiles": "Oferta Miles&More",
+    "mapaSerwisu": "Mapa serwisu",
+    "telefon": "Telefon",
+    "formularzKontaktowy": "Formularz kontaktowy",
+    "stronaGlowna": "Strona Główna",
+    "odwiedzNas": "Odwiedź nas na: "
+  },
+  "Placeholder": {
+    "szukajProduktu": "Szukaj produktu..."
+  },
+  "Body": {
+    "dostawa": "Dostawa: ",
+    "od": "od",
+    "doKonca": "Do końca pozostało: ",
+    "dni": "dni",
+    "aktualnaCena": "Aktualna cena ",
+    "cenaKupTeraz": "Cena kup teraz ",
+    "zawartoscStrony": "Zawartość strony nie jest dostępna",
+    "zagubionyBagaz": "Zagubiony bagaż nr: ",
+    "dostawaPoklad": "Dostawa na pokład",
+    "dostawaAdres": "Dostawa na adres",
+    "uslugi": "Usługi",
+    "aukcje": "Aukcje",
+    "nowosci": "Nowości",
+    "promocje": "Promocje",
+    "polecamyRowniez": "Polecamy również",
+    "twojaOferta": "Twoja oferta"
+  },
+  "Text": {
+    "abyWziacUdzialWLicytacjiMusiszByc": "Aby wziąć udział w licytacji musisz być",
+    "zalogowany": "zalogowany",
+    "zapoznalemSieZ": "Zapoznałem się z ",
+    "regulaminem": "regulaminem"
+  },
+  "Link": {
+    "login": "https://www.lot.com/pl/pl/login",
+    "regulacje": "https://www.lot.com/pl/pl/regulacje",
+    "licytujZaMnie": "Licytuj za mnie",
+    "lubieTo": "Lubię to!",
+    "udostepnij": "Udostępnij"
+  },
+  "Button": {
+    "licytuj": "Licytuj",
+    "kupTeraz": "Kup teraz"
+  },
+  "DeliveryTerm": {
+    "terminDostawy": "Termin dostawy to 5 dni"
+  },
+  "Collapse": {
+    "opis": "Opis",
+    "dodatkoweInformacje": "Dodatkowe informacje",
+    "terminDostawy": "Termin dostawy"
+  }
+}

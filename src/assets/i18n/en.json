@@ -1,0 +1,76 @@
+{
+  "Header": {
+    "mojeKonto": "My account"
+  },
+  "SubHeader": {
+    "numerRezerwacji": "No. of your reservation:",
+    "zmien": "Change"
+  },
+  "Footer": {
+    "przydatneInformacje": "Useful information",
+    "dlaKupujacego": "For the buyer",
+    "kontakt": "Contact",
+    "metodyPlatnosci": "Payment method"
+  },
+  "SubFooter": {
+    "regulaminSklepu": "Shop rules",
+    "regulaminAukcjiBiletowLotniczych": "Rules of Plane tickets auction",
+    "regulaminAukcjiBagazu": "Rules of luggage auction",
+    "regulaminAukcji": "Rules of auction",
+    "pomoc": "Help",
+    "sposobyDostawy": "Delivery method",
+    "zwrotyGwarancje": "Return and warranty",
+    "ofertaMiles": "Miles&More offer",
+    "mapaSerwisu": "Service map",
+    "telefon": "Phone number",
+    "formularzKontaktowy": "Contact form",
+    "stronaGlowna": "Home",
+    "odwiedzNas": "Visit us on: "
+  },
+  "Placeholder": {
+    "szukajProduktu": "Search for a product..."
+  },
+  "Body": {
+    "dostawa": "Delivery: ",
+    "od": "from",
+    "doKonca": "Time to the end: ",
+    "dni": "days",
+    "aktualnaCena": "Actual price ",
+    "cenaKupTeraz": "Price: buy now ",
+    "zawartoscStrony": "This website's content is not available",
+    "zagubionyBagaz": "Lost luggage no: ",
+    "dostawaPoklad": "Delivery on board",
+    "dostawaAdres": "Delivery to your address",
+    "uslugi": "Services",
+    "aukcje": "Auctions",
+    "nowosci": "Latest",
+    "promocje": "Specials",
+    "polecamyRowniez": "We also recommend",
+    "twojaOferta": "Your offer"
+  },
+  "Text": {
+    "abyWziacUdzialWLicytacjiMusiszByc": "If you want to participate in auction you must",
+    "zalogowany": "register",
+    "zapoznalemSieZ": "I have read the rules of ",
+    "regulaminem": "procedure"
+  },
+  "Link": {
+    "login": "https://www.lot.com/us/en/",
+    "regulacje": "https://www.lot.com/pl/en/regulations",
+    "licytujZaMnie": "Bid for me",
+    "lubieTo": "Like It!",
+    "udostepnij": "Share"
+  },
+  "Button": {
+    "licytuj": "Bid",
+    "kupTeraz": "Buy now"
+  },
+  "DeliveryTerm": {
+    "terminDostawy": "Delivery term"
+  },
+  "Collapse": {
+    "opis": "Description",
+    "dodatkoweInformacje": "More information",
+    "terminDostawy": "Delivery time"
+  }
+}

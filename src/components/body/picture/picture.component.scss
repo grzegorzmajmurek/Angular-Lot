@@ -1,0 +1,31 @@
+@import "src/styles";
+
+.imgBorder {
+  border: 1px solid $text-color;
+}
+
+.large-font-size {
+  font-size: $large-font-size;
+}
+
+@media only screen and (max-width: 800px) {
+  .large-image {
+    width: 250px;
+    height: 150px;
+  }
+  .small-image {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .large-image {
+    width: 350px;
+    height: 300px;
+  }
+  .small-image {
+    width: 100px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,20 @@
+@import "src/styles.scss";
+
+.search-product-icon-alignment {
+  position: relative;
+  z-index: 1;
+  left: -25px;
+  top: 1px;
+  color: #7B7B7B;
+  cursor:pointer;
+  width: 0;
+}
+
+.search-product {
+  background-color: $grey-color;
+  border: 1px solid $grey-color;
+
+  &::placeholder {
+    color: $text-color;
+  }
+}

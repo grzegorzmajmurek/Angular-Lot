@@ -1,0 +1,21 @@
+@import "src/styles";
+
+@media only screen and (max-width: 600px) {
+  .image-size {
+    height: 50px;
+    max-width: 50px;
+  }
+  .font-size-price {
+    font-size: $md-font-size;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .image-size {
+    height: 150px;
+    max-width: 150px;
+  }
+  .font-size-price {
+    font-size: $xxl-font-size;
+  }
+}

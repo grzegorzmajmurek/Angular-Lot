@@ -1,0 +1,16 @@
+<p class="large-font-size font-weight-bold mt-5 text-center text-md-left">{{'Body.zagubionyBagaz'| translate}} {{lostluggageNumber}}</p>
+<div class="row align-items-center justify-content-center">
+  <a href="#" (click)="previous()">
+    <span class="fa fa-angle-left fa-3x" aria-hidden="true"></span>
+  </a>
+  <img class="large-image" [src]="lostluggageImages.length > 0 ? lostluggageImages[imagesIndex] : 'assets/image/noimage.png'">
+
+  <a href="#" (click)="next()">
+    <span class="fa fa-angle-right fa-3x" aria-hidden="true"></span>
+  </a>
+</div>
+<div class="my-5">
+  <ng-container *ngFor="let image of lostluggageImages; let i = index">
+    <img class="small-image" [src]="image" [ngClass]="{'imgBorder': i === imagesIndex}">
+  </ng-container>
+</div>
